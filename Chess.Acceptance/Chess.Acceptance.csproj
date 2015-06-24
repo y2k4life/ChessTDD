@@ -58,6 +58,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BishopMoves.feature</DependentUpon>
     </Compile>
+    <Compile Include="KnightAlgebraicMoves.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KnightAlgebraicMoves.feature</DependentUpon>
+    </Compile>
     <Compile Include="KnightMoves.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -75,6 +80,11 @@
     </Compile>
     <Compile Include="NormalBoardSetupScenarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueenAlgebraicMoves.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QueenAlgebraicMoves.feature</DependentUpon>
+    </Compile>
     <Compile Include="QueenMoves.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -92,6 +102,10 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>BishopMoves.feature.cs</LastGenOutput>
     </None>
+    <None Include="KnightAlgebraicMoves.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>KnightAlgebraicMoves.feature.cs</LastGenOutput>
+    </None>
     <None Include="KnightMoves.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>KnightMoves.feature.cs</LastGenOutput>
@@ -105,6 +119,10 @@
       <LastGenOutput>KingMoves.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="QueenAlgebraicMoves.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>QueenAlgebraicMoves.feature.cs</LastGenOutput>
+    </None>
     <None Include="QueenMoves.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>QueenMoves.feature.cs</LastGenOutput>
